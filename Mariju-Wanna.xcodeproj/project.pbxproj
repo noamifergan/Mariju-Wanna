@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA6536062485417F00875A62 /* ConstantsForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6536052485417F00875A62 /* ConstantsForApp.swift */; };
+		CA6536082487C5FB00875A62 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6536072487C5FB00875A62 /* ResultsTableViewController.swift */; };
+		CA808A5224850787006CEA83 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA808A5124850787006CEA83 /* FetchData.swift */; };
 		CA9F8A332482C4C8007DED6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A322482C4C8007DED6A /* AppDelegate.swift */; };
 		CA9F8A352482C4C8007DED6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A342482C4C8007DED6A /* SceneDelegate.swift */; };
 		CA9F8A372482C4C8007DED6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A362482C4C8007DED6A /* ViewController.swift */; };
-		CA9F8A3A2482C4C8007DED6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9F8A382482C4C8007DED6A /* Main.storyboard */; };
 		CA9F8A3C2482C4CD007DED6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9F8A3B2482C4CD007DED6A /* Assets.xcassets */; };
 		CA9F8A3F2482C4CD007DED6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9F8A3D2482C4CD007DED6A /* LaunchScreen.storyboard */; };
+		CA9F8A482482CEEA007DED6A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A472482CEEA007DED6A /* Secrets.swift */; };
+		CA9F8A4B2483821A007DED6A /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A4A2483821A007DED6A /* Extentions.swift */; };
+		CA9F8A4D2483894D007DED6A /* PickerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F8A4C2483894D007DED6A /* PickerBrain.swift */; };
+		CAB13FDC24894663004476BD /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB13FDB24894663004476BD /* SpinnerViewController.swift */; };
+		CAB13FDE24894D5C004476BD /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB13FDD24894D5C004476BD /* NameTableViewCell.swift */; };
+		CAB13FE0248A1623004476BD /* StrainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB13FDF248A1623004476BD /* StrainTableViewCell.swift */; };
+		CAB13FE2248A32FC004476BD /* EffectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB13FE1248A32FC004476BD /* EffectTableViewCell.swift */; };
+		CAB13FE4248A34ED004476BD /* FlavorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB13FE3248A34ED004476BD /* FlavorTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA6536052485417F00875A62 /* ConstantsForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsForApp.swift; sourceTree = "<group>"; };
+		CA6536072487C5FB00875A62 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		CA808A5124850787006CEA83 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 		CA9F8A2F2482C4C8007DED6A /* Mariju-Wanna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mariju-Wanna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9F8A322482C4C8007DED6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9F8A342482C4C8007DED6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA9F8A362482C4C8007DED6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA9F8A392482C4C8007DED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA9F8A3B2482C4CD007DED6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9F8A3E2482C4CD007DED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA9F8A402482C4CD007DED6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9F8A472482CEEA007DED6A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		CA9F8A4A2483821A007DED6A /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		CA9F8A4C2483894D007DED6A /* PickerBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBrain.swift; sourceTree = "<group>"; };
+		CAB13FDB24894663004476BD /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		CAB13FDD24894D5C004476BD /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		CAB13FDF248A1623004476BD /* StrainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainTableViewCell.swift; sourceTree = "<group>"; };
+		CAB13FE1248A32FC004476BD /* EffectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectTableViewCell.swift; sourceTree = "<group>"; };
+		CAB13FE3248A34ED004476BD /* FlavorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,47 @@
 			children = (
 				CA9F8A322482C4C8007DED6A /* AppDelegate.swift */,
 				CA9F8A342482C4C8007DED6A /* SceneDelegate.swift */,
-				CA9F8A362482C4C8007DED6A /* ViewController.swift */,
-				CA9F8A382482C4C8007DED6A /* Main.storyboard */,
+				CA9F8A492482CEF2007DED6A /* Model */,
+				CA9F8A462482CCE3007DED6A /* View */,
+				CA9F8A4E24838B78007DED6A /* Controller */,
 				CA9F8A3B2482C4CD007DED6A /* Assets.xcassets */,
 				CA9F8A3D2482C4CD007DED6A /* LaunchScreen.storyboard */,
 				CA9F8A402482C4CD007DED6A /* Info.plist */,
 			);
 			path = "Mariju-Wanna";
+			sourceTree = "<group>";
+		};
+		CA9F8A462482CCE3007DED6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA9F8A362482C4C8007DED6A /* ViewController.swift */,
+				CA6536072487C5FB00875A62 /* ResultsTableViewController.swift */,
+				CAB13FDB24894663004476BD /* SpinnerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA9F8A492482CEF2007DED6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA9F8A472482CEEA007DED6A /* Secrets.swift */,
+				CA9F8A4A2483821A007DED6A /* Extentions.swift */,
+				CA6536052485417F00875A62 /* ConstantsForApp.swift */,
+				CAB13FDD24894D5C004476BD /* NameTableViewCell.swift */,
+				CAB13FDF248A1623004476BD /* StrainTableViewCell.swift */,
+				CAB13FE1248A32FC004476BD /* EffectTableViewCell.swift */,
+				CAB13FE3248A34ED004476BD /* FlavorTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA9F8A4E24838B78007DED6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA9F8A4C2483894D007DED6A /* PickerBrain.swift */,
+				CA808A5124850787006CEA83 /* FetchData.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +181,6 @@
 			files = (
 				CA9F8A3F2482C4CD007DED6A /* LaunchScreen.storyboard in Resources */,
 				CA9F8A3C2482C4CD007DED6A /* Assets.xcassets in Resources */,
-				CA9F8A3A2482C4C8007DED6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +191,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB13FE4248A34ED004476BD /* FlavorTableViewCell.swift in Sources */,
+				CAB13FE0248A1623004476BD /* StrainTableViewCell.swift in Sources */,
 				CA9F8A372482C4C8007DED6A /* ViewController.swift in Sources */,
+				CA6536062485417F00875A62 /* ConstantsForApp.swift in Sources */,
+				CA9F8A482482CEEA007DED6A /* Secrets.swift in Sources */,
+				CA9F8A4B2483821A007DED6A /* Extentions.swift in Sources */,
+				CAB13FDC24894663004476BD /* SpinnerViewController.swift in Sources */,
+				CAB13FDE24894D5C004476BD /* NameTableViewCell.swift in Sources */,
 				CA9F8A332482C4C8007DED6A /* AppDelegate.swift in Sources */,
+				CA9F8A4D2483894D007DED6A /* PickerBrain.swift in Sources */,
+				CA6536082487C5FB00875A62 /* ResultsTableViewController.swift in Sources */,
+				CAB13FE2248A32FC004476BD /* EffectTableViewCell.swift in Sources */,
+				CA808A5224850787006CEA83 /* FetchData.swift in Sources */,
 				CA9F8A352482C4C8007DED6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA9F8A382482C4C8007DED6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA9F8A392482C4C8007DED6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA9F8A3D2482C4CD007DED6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J7W4CYA5S;
 				INFOPLIST_FILE = "Mariju-Wanna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "NoamEfergan.Mariju-Wanna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J7W4CYA5S;
 				INFOPLIST_FILE = "Mariju-Wanna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "NoamEfergan.Mariju-Wanna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
